@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script>
+            
+            function ejemploArrays(){
+                var listaPalabras = ["casa", "coche", "camion"];
+                
+                for (var i in listaPalabras){
+                    document.write(listaPalabras[i] + "");
+                }
+                
+                var listaCasas = [];
+                
+                listaCasas["Stark"] = 6;
+                listaCasas["Baratheon"] = 3;
+                listaCasas["Lannister"] = 3;
+                listaCasas["Targatyen"] = 2;
+                
+                
+                for (var i in listaCasas){
+                    document.write(listaCasas[i] + "");
+                }
+                
+                document.write(listaCasas["Lannister"]);
+                
+            }
+            
+            
+        </script>
+        
+    </head>
+    <body>
+        <div>
+            
+            <input type ="submit" value="Ejemplo 7" onclick="ejemploArrays();" />
+            
+        </div>
+    </body>
+</html>
